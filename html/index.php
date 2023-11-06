@@ -40,16 +40,20 @@
     <div class="capa"></div> 
     <!-- Comienza el apartado del menu lateral -->
     <input type="checkbox" id="btn-menu">
-    <div class="container-menu">
-        <div class="cont-menu">
-            <nav>
-                <a href="../html/index.php">Inicio</a>
-                <a href="../html/infantil.html">Infantil</a>
-                <a href="../html/diabetico.html">Diabeticos</a>
-            </nav>
+        <div class="container-menu">
+            <div class="cont-menu">
+                <nav>
+                    <a href="#" class="close-menu"> <i class="fas fa-times"></i></a>
+                    <a href="../html/index.php">Inicio</a>
+                    <a href="../html/infantil.php">Infantil</a>
+                    <a href="../html/diabetico.php">Diabeticos</a>
+                    <a href="../html/menus.php">Recetas</a>
+                    <a href="../html/contacto.html">Contacto</a>
+                    <a href="../html/acerca.html">Acerca</a>
+                </nav>
+            </div>
         </div>
-    </div>
-    <!-- Fin cel menu lateral -->
+        <!-- Fin cel menu lateral -->
     <!-- Inicio de la busqueda -->
     <div class="busqueda">
         <form method="POST">

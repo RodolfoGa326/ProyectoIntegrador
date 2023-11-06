@@ -24,16 +24,22 @@
 </head>
 <body>
     <header class="header">
-        <div class="container">
+    <div class="container">
             <div class="btn-menu">
                 <label for="btn-menu" class="icon-menu">☰</label>
             </div>
             <div class="logo">
                 <h1>¿Qué hay de comer?</h1>
             </div>
+            <nav class="menu">
+                <a href="../html/index.php">Inicio</a>
+                <a href="../html/acerca.html">Acerca</a>
+                <a href="../html/menus.php">Menus</a>
+                <a href="../html/contacto.html">Contacto</a>
+            </nav>
         </div>
     </header>
-    
+    <div class="capa"></div> 
         <!-- Comienza el apartado del menu lateral -->
         <input type="checkbox" id="btn-menu">
         <div class="container-menu">
@@ -49,7 +55,7 @@
                 </nav>
             </div>
         </div>
-        <!-- Fin cel menu lateral -->s
+        <!-- Fin cel menu lateral -->
         <!-- Mostrando los menus -->
         <table class="muestra">
         <thead>
@@ -63,7 +69,7 @@
             </tr>
         </thead>
         <?php
-            $sql="SELECT * FROM datosrecetas";
+            $sql="SELECT * FROM diabetes";
             $result=mysqli_query($conectar,$sql);
             while($mostrar=mysqli_fetch_array($result)){
         ?>

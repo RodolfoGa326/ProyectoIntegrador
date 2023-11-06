@@ -45,13 +45,17 @@
         <div class="container-menu">
             <div class="cont-menu">
                 <nav>
+                    <a href="#" class="close-menu"> <i class="fas fa-times"></i></a>
                     <a href="../html/index.php">Inicio</a>
-                    <a href="../html/infantil.html">Infantil</a>
-                    <a href="../html/diabetico.html">Diabeticos</a>
+                    <a href="../html/infantil.php">Infantil</a>
+                    <a href="../html/diabetico.php">Diabeticos</a>
+                    <a href="../html/menus.php">Recetas</a>
+                    <a href="../html/contacto.html">Contacto</a>
+                    <a href="../html/acerca.html">Acerca</a>
                 </nav>
             </div>
         </div>
-        <!-- Fin cel menu lateral -->s
+        <!-- Fin cel menu lateral -->
         <!-- Mostrando los menus -->
         <table class="muestra">
         <thead>

@@ -203,12 +203,12 @@ body{
 }
 .contacto2 p{
     color: white;
-    height: 550px;
-    display: flex;
-    justify-content: center;
-    margin-top: -520px;
+    height: 800px;
+    width: 800px;
+    text-align: justify;
+    margin-top: -500px;
+    margin-left: 400px;
 }
-
 .contacto2 figcaption{
     color: white;
     height: 550px;
@@ -224,7 +224,7 @@ body{
     display: flex;
     justify-content: center;
     margin-top: -480px;
-    margin-left: 860px;
+    margin-left: 710px;
     width: 100px;
 }
 /*Fin de Apartado de Contacto*/
@@ -240,12 +240,9 @@ body{
     color: white;
     height: 800px;
     width: 800px;
-    display: flex;
     text-align: justify;
-    justify-content: center;
-    margin-top: -520px;
-    margin-left: 500px;
-    
+    margin-top: -500px;
+    margin-left: 400px;
 }
 .acerca{
     margin-top: 120px;
